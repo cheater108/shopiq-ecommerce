@@ -9,7 +9,7 @@ async function page({ searchParams }) {
     return (
         <main className="flex w-11/12 m-auto mt-4">
             <div className="w-full">
-                <div className="flex flex-wrap gap-4 justify-end w-full">
+                <div className="flex flex-wrap gap-4 w-full">
                     {products.map((elem) => (
                         <ProductCard
                             key={elem.id}
