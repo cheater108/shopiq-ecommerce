@@ -42,7 +42,7 @@ function Navbar() {
             />
             {menu && (
                 <div
-                    className="w-[150px] right-1 top-11 border border-themePrimary rounded-md shadow-sm md:hidden flex flex-col absolute gap-2 bg-white p-3 z-10"
+                    className="w-[150px] right-1 top-11 rounded-md border border-slate-200 shadow-lg md:hidden flex flex-col absolute gap-2 bg-white p-3 z-10"
                     onClick={() => setMenu(false)}
                 >
                     <Link className="hover:text-themePrimary" href="/">
